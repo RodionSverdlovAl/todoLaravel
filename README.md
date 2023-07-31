@@ -1,3 +1,13 @@
+# Инструкция по деплою
+
+1. Скачайте проект.
+2. Зайдите в папку с проектом.
+3. Выполните команду `sudo su "пароль"`.
+4. Запустите контейнеры с помощью `docker-compose up -d`.
+5. Зайдите в контейнер с приложением Laravel с помощью `docker exec -it laravel-app bash`.
+6. Выполните миграции с помощью команды `php artisan migrate`.
+7. Откройте веб-браузер и перейдите по адресу `localhost:8000`.
+8. Используйте пароль от phpMyAdmin для доступа к базе данных Laravel (`laravel` база данных).
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
